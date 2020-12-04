@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://cobey:12345@expensedatabase.eb3er.mongodb.net/Expensedatabase?retryWrites=true&w=majority",
+    "jwtsecret": "123456"
+
+
+}
