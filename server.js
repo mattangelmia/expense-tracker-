@@ -24,7 +24,7 @@ app.use("/api/auth", require("./routes/auth"))
 //app.use("/api/income", require("./routes/income"))
 //app.use("/api/expense", require("./routes/expense"))
 
-const PORT = 5000;
+const PORT = porcess.env.PORT || 5000;
 
 app.listen(PORT, () => {
     console.log('Listening on port ' + PORT);
